@@ -59,6 +59,8 @@
 
   .about__wrapp {
     padding: 130px 20px 30px 80px;
+    align-items: center;
+    text-align: center;
   }
 
   .about__title {
@@ -130,5 +132,9 @@
 
   .header {
     justify-content: center;
+  }
+
+  .about__buttons-group {
+    flex-direction: column;
   }
 }
