@@ -71,3 +71,10 @@ const changeValue = () => {
 rangeInput.addEventListener('input', changeValue);
 
 document.addEventListener('DOMContentLoaded', changeValue);
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('show');
+});
